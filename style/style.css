@@ -1,0 +1,14 @@
+body {
+    background: #f8f8f8;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li a {
+    color: rgb(1, 127, 158);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
