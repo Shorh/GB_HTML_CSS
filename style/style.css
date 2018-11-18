@@ -58,3 +58,24 @@ body {
     background-size: 2%;
     padding-left: 35px;
 }
+
+.contact_form textarea {
+    width: 800px;
+    height: 100px;
+}
+
+.contact_form label {
+    line-height: 45px;
+}
+
+.contact_form input[type="text"],
+.contact_form input[type="email"] {
+    position: absolute;
+    width: 400px;
+    height: 35px;
+    left: 250px;
+
+    font-size: 20px;
+    color: rgb(0, 76, 95);
+    font-variant: small-caps;
+}
