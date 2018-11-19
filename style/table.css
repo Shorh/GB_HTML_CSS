@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: rgb(65, 64, 64) solid 1px;
+}
+
+td:nth-child(3) {
+    background: yellow;
+}
+
+tbody tr:first-of-type {
+    height: 150px;
+}
