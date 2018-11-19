@@ -20,7 +20,7 @@ body {
 }
 
 .game_image:hover {
-    border: #5a0a0a00 solid 4px;
+    border-color: transparent;
 }
 
 .menu {
