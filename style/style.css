@@ -6,6 +6,10 @@ body {
     width: 50%;
 }
 
+.header img {
+    width: 10%;
+}
+
 .catalog_image {
     width: 20%;
 }
@@ -13,6 +17,10 @@ body {
 .game_image {
     width: 40%;
     border: #5a0a0a solid 4px;
+}
+
+.game_image:hover {
+    border-color: transparent;
 }
 
 .menu {
@@ -24,6 +32,16 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rgb(1, 86, 107);
+    font-size: 24px;
+}
+
+.footer {
+    text-align: center;
+    background: #cfcfcf;
 }
 
 .product_header {
@@ -47,6 +65,15 @@ body {
     line-height: 24px;
 }
 
+.product_short_description::first-letter,
+.product_full_description::first-letter,
+.product_additional_description::first-letter {
+    font-size: 20px;
+    color: #5a0a0a;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .product_features {
     color: #5a0a0a;
     font-size: 18px;
@@ -57,6 +84,19 @@ body {
     background: url(../images/list.png) no-repeat left center;
     background-size: 2%;
     padding-left: 35px;
+}
+
+table.product_features {
+    border-collapse: collapse
+}
+
+table.product_features td,
+table.product_features th {
+    border: 1px solid #484343;
+}
+
+table.product_features td:nth-child(2) {
+    text-align: center;
 }
 
 .contact_form textarea {
@@ -78,4 +118,10 @@ body {
     font-size: 20px;
     color: rgb(0, 76, 95);
     font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.contact_form input[type="email"]:focus {
+    background: rgb(0, 76, 95);
+    color: white;
 }
