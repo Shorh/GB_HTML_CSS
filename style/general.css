@@ -1,0 +1,81 @@
+body {
+    background: #f8f8f8;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background: url('../images/header_background.png') repeat;
+}
+
+.shop_name {
+    float: left;
+    width: 250px;
+    margin: 51px 0;
+    text-align: center;
+    color: rgb(1, 86, 107);
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+    padding: 0;
+    height: 30px;
+}
+
+.root {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    text-align: center;
+    width: 112px;
+}
+
+.root::before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    content: "";
+}
+
+.root a {
+    display: inline-block;
+    color: rgb(1, 127, 158);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.root a:hover {
+    color: rgb(1, 86, 107);
+    font-size: 24px;
+}
+
+.root:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    left: -18px;
+    width: 180%;
+    list-style-type: none;
+    text-align: left;
+}
+
+.footer {
+    text-align: right;
+    height: 100px;
+    background: rgb(0, 42, 53);
+    padding: 15px 15px 0 0;
+    color: white;
+}

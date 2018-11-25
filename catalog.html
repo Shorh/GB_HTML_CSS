@@ -4,43 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Каталог</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/image.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/catalog.css">
 </head>
 
 <body>
-    <div class="header">
+    <div class="container">
+        <div class="header">
             <img src="images/logo.png" alt="Логотип">
-            <strong>Магазин настольных игр "Сундук с сокровищами"</strong>
+            <div class="shop_name">
+                <strong>Магазин настольных игр "Сундук с сокровищами"</strong>
+            </div>
             <ul class="menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li class="root"><a href="index.html">Главная</a></li>
+                <li class="root">
+                    <a href="catalog.html">Каталог</a>
+                    <ul class="dropdown">
+                        <li><a href="catalog/karkasson.html">Каркассон</a></li>
+                        <li><a href="catalog/machi-koro.html">Мачи-Кро</a></li>
+                        <li><a href="catalog/manchkin.html">Манчкин</a></li>
+                    </ul>
+                </li>
+                <li class="root"><a href="contacts.html">Контакты</a></li>
             </ul>
         </div>
-    <hr>
+        <hr>
 
-    <h1>Каталог</h1>
-    <p>
-        <a href="images/karkasson.jpg" target="_blank">
-            <img src="images/karkasson.jpg" alt="Каркассон" title="Настольная игра Каркассон" class="catalog_image">
-        </a><br>
-        <a href="catalog/karkasson.html">Каркассон</a>
-    </p>
-    <p>
-        <a href="images/machi-koro.jpg" target="_blank">
-            <img src="images/machi-koro.jpg" alt="Мачи Коро" title="Настольная игра Мачи Коро" class="catalog_image">
-        </a><br>
-        <a href="catalog/machi-koro.html">Мачи Коро</a>
-    </p>
-    <p>
-        <a href="images/manchkin.jpg" target="_blank">
-            <img src="images/manchkin.jpg" alt="Манчкин" title="Настольная игра Манчкин" class="catalog_image">
-        </a><br>
-        <a href="catalog/manchkin.html">Манчкин</a>
-    </p>
+        <h1>Каталог</h1>
+        <div class="catalo_wrap">
+            <div class="catalog_product_unit">
+                <a href="catalog/karkasson.html">
+                    <img src="images/karkasson.jpg" alt="Каркассон" title="Настольная игра Каркассон" class="catalog_image">
+                    Каркассон</a>
+            </div>
+            <div class="catalog_product_unit">
+                <a href="catalog/karkasson.html">
+                    <img src="images/karkasson.jpg" alt="Каркассон" title="Настольная игра Каркассон" class="catalog_image">
+                    Каркассон</a>
+            </div>
+            <div class="catalog_product_unit">
+                <a href="catalog/machi-koro.html">
+                    <img src="images/machi-koro.jpg" alt="Мачи Коро" title="Настольная игра Мачи Коро" class="catalog_image">
+                    Мачи Коро</a>
+            </div>
+            <div class="catalog_product_unit">
+                <a href="catalog/machi-koro.html">
+                    <img src="images/machi-koro.jpg" alt="Мачи Коро" title="Настольная игра Мачи Коро" class="catalog_image">
+                    Мачи Коро</a>
+            </div>
+            <div class="catalog_product_unit">
+                <a href="catalog/manchkin.html">
+                    <img src="images/manchkin.jpg" alt="Манчкин" title="Настольная игра Манчкин" class="catalog_image">
+                    Манчкин</a>
+            </div>
+            <div class="catalog_product_unit">
+                <a href="catalog/manchkin.html">
+                    <img src="images/manchkin.jpg" alt="Манчкин" title="Настольная игра Манчкин" class="catalog_image">
+                    Манчкин</a>
+            </div>
+        </div>
 
-    <hr>
-    <div class="footer">&copy;"Все права защищены"</div>
+        <hr>
+        <div class="footer">&copy;"Все права защищены"</div>
+    </div>
 </body>
 
 </html>

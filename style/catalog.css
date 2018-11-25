@@ -1,0 +1,21 @@
+.catalo_wrap::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.catalog_product_unit {
+    box-sizing: border-box;
+    float: left;
+    border: 1px black solid;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.catalog_product_unit:nth-child(3n) {
+    margin-right: 0;
+}
+
+.catalog_product_unit:nth-child(n+4) {
+    margin-top: 30px;
+}

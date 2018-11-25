@@ -1,0 +1,25 @@
+.main_image {
+    width: 50%;
+}
+
+.header img {
+    float: left;
+    height: 100%;
+    margin: 0 15px;
+}
+
+.catalog_image {
+    display: block;
+    width: 100%;
+}
+
+.game_image {
+    width: 20%;
+    border: rgb(1, 86, 107) solid 4px;
+    float: left;
+    margin-right: 15px;
+}
+
+.game_image:hover {
+    border-color: transparent;
+}
