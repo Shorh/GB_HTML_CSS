@@ -2,12 +2,34 @@ body {
     background: #f8f8f8;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background: url('../images/header_background.png') repeat;
+}
+
+.shop_name {
+    float: left;
+    width: 250px;
+    margin: 55px 0;
+    text-align: center;
+    color: rgb(1, 86, 107);
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
 .main_image {
     width: 50%;
 }
 
 .header img {
-    width: 10%;
+    float: left;
+    height: 90%;
+    margin: 10px 15px;
 }
 
 .catalog_image {
@@ -25,6 +47,15 @@ body {
 
 .menu {
     list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    height: 25px;
+    vertical-align: bottom;
+    width: 100px;
 }
 
 .menu li a {
