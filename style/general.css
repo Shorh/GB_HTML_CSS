@@ -15,7 +15,7 @@ body {
 .shop_name {
     float: left;
     width: 250px;
-    margin: 55px 0;
+    margin: 51px 0;
     text-align: center;
     color: rgb(1, 86, 107);
     font-size: 20px;
@@ -25,21 +25,33 @@ body {
 .menu {
     list-style-type: none;
     float: right;
-    margin-right: 20px;
+    margin-right: 15px;
+    padding: 0;
+    height: 30px;
 }
 
 .root {
     display: inline-block;
-    height: 25px;
+    height: 100%;
     vertical-align: bottom;
-    width: 100px;
+    text-align: center;
+    width: 112px;
+}
+
+.root::before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    content: "";
 }
 
 .root a {
+    display: inline-block;
     color: rgb(1, 127, 158);
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    vertical-align: bottom;
 }
 
 .root a:hover {
@@ -53,8 +65,11 @@ body {
 
 .dropdown {
     display: none;
+    position: relative;
+    left: -18px;
     width: 180%;
     list-style-type: none;
+    text-align: left;
 }
 
 .footer {
