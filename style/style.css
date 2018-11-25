@@ -51,23 +51,33 @@ body {
     margin-right: 20px;
 }
 
-.menu li {
+.root {
     display: inline-block;
     height: 25px;
     vertical-align: bottom;
     width: 100px;
 }
 
-.menu li a {
+.root a {
     color: rgb(1, 127, 158);
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.menu li a:hover {
+.root a:hover {
     color: rgb(1, 86, 107);
     font-size: 24px;
+}
+
+.root:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    width: 180%;
+    list-style-type: none;
 }
 
 .footer {
