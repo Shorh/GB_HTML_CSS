@@ -1,0 +1,66 @@
+body {
+    background: #f8f8f8;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background: url('../images/header_background.png') repeat;
+}
+
+.shop_name {
+    float: left;
+    width: 250px;
+    margin: 55px 0;
+    text-align: center;
+    color: rgb(1, 86, 107);
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.root {
+    display: inline-block;
+    height: 25px;
+    vertical-align: bottom;
+    width: 100px;
+}
+
+.root a {
+    color: rgb(1, 127, 158);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.root a:hover {
+    color: rgb(1, 86, 107);
+    font-size: 24px;
+}
+
+.root:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    width: 180%;
+    list-style-type: none;
+}
+
+.footer {
+    text-align: right;
+    height: 100px;
+    background: rgb(0, 42, 53);
+    padding: 15px 15px 0 0;
+    color: white;
+}
