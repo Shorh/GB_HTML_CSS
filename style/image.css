@@ -4,8 +4,8 @@
 
 .header img {
     float: left;
-    height: 90%;
-    margin: 10px 15px;
+    height: 100%;
+    margin: 0 15px;
 }
 
 .catalog_image {
@@ -13,8 +13,10 @@
 }
 
 .game_image {
-    width: 40%;
-    border: #5a0a0a solid 4px;
+    width: 20%;
+    border: rgb(1, 86, 107) solid 4px;
+    float: left;
+    margin-right: 15px;
 }
 
 .game_image:hover {
