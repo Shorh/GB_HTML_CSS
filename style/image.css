@@ -9,7 +9,8 @@
 }
 
 .catalog_image {
-    width: 20%;
+    display: block;
+    width: 100%;
 }
 
 .game_image {
