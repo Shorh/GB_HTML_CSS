@@ -4,15 +4,15 @@
 }
 
 .contact_form label {
+    display: inline-block;
     line-height: 45px;
+    width: 220px;
 }
 
 .contact_form input[type="text"],
 .contact_form input[type="email"] {
-    position: absolute;
     width: 400px;
     height: 35px;
-    left: 250px;
 
     font-size: 20px;
     color: rgb(0, 76, 95);
