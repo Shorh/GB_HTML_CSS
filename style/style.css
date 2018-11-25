@@ -71,8 +71,11 @@ body {
 }
 
 .footer {
-    text-align: center;
-    background: #cfcfcf;
+    text-align: right;
+    height: 100px;
+    background: rgb(0, 42, 53);
+    padding: 15px 15px 0 0;
+    color: white;
 }
 
 .product_header {
