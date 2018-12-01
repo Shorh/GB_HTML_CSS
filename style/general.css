@@ -1,9 +1,10 @@
 body {
     background: #f8f8f8;
+    margin: 0;
 }
 
 .container {
-    width: 1000px;
+    width: 1170px;
     margin: 0 auto;
 }
 
