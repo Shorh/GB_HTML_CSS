@@ -1,11 +1,14 @@
-.main_image {
-    width: 50%;
-}
-
 .header img {
     float: left;
     height: 100%;
     margin: 0 15px;
+}
+
+.header_main img {
+    position: absolute;
+    height: 111px;
+    left: 69px;
+    top: 24px;
 }
 
 .catalog_image {
