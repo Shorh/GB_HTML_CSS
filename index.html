@@ -4,44 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Сундук с сокровищами</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/image.css">
     <link rel="stylesheet" href="style/general.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="header">
-            <img src="images/logo.png" alt="Логотип">
-            <div class="shop_name">
-                <strong>Магазин настольных игр "Сундук с сокровищами"</strong>
+<body class="body_main">
+    <div class="header_main">
+        <div class="main_wrap">
+            <a href="index.html"><img src="images/logo.png" alt="Логотип"></a>
+            <div class="shop_name_wrap">
+                <div class="shop_name_main">
+                    Сундук с сокровищами
+                </div>
+                <div class="shop_name_text">
+                    Добро пожаловать в магазин настольных игр
+                </div>
             </div>
-            <ul class="menu">
-                <li class="root"><a href="index.html">Главная</a></li>
-                <li class="root">
-                    <a href="catalog.html">Каталог</a>
-                    <ul class="dropdown">
-                        <li><a href="catalog/karkasson.html">Каркассон</a></li>
-                        <li><a href="catalog/machi-koro.html">Мачи-Коро</a></li>
-                        <li><a href="catalog/manchkin.html">Манчкин</a></li>
-                    </ul>
-                </li>
-                <li class="root"><a href="contacts.html">Контакты</a></li>
-            </ul>
+            <div class="social_icons">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </div>
-        <hr>
-
-        <h1>Главная</h1>
-        <img src="images/games.jpg" alt="Магазин настольных игр" class="main_image">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam animi cupiditate maiores nobis
-            soluta
-            tempora ullam. Culpa debitis distinctio dolores ducimus esse fugiat iusto labore nam natus necessitatibus
-            nostrum odit officiis porro, provident quae recusandae rem sed soluta voluptas.
-        </p>
-
-        <hr>
-        <div class="footer">&copy;"Все права защищены"</div>
     </div>
+
+    <div class="content_main">
+        <div class="main_wrap">
+            <div class="content_left">
+                <div class="menu_wrap">
+                    <div class="menu_wrap_text">Меню</div>
+                    <div class="root_main">
+                        <a href="index.html">Главная</a>
+                    </div>
+                    <div class="root_main">
+                        <a href="catalog.html">Каталог</a>
+                        <div class="dropdown_main">
+                            <a href="catalog/karkasson.html">Каркассон</a>
+                            <a href="catalog/machi-koro.html">Мачи-Коро</a>
+                            <a href="catalog/manchkin.html">Манчкин</a>
+                        </div>
+                    </div>
+                    <div class="root_main">
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_main"></div>
+
 </body>
 
 </html>

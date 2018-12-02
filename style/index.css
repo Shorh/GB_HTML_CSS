@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.body_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_main {
+    min-height: 700px;
+    flex-shrink: 0;
+    background: url(../images/games.jpg);
+    background-size: cover;
+}
+
+.main_wrap {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.shop_name_wrap {
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    box-sizing: border-box;
+    padding: 82px 22px;
+    top: 336px;
+}
+
+.shop_name_main {
+    color: #333333;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0 0 24px 0;
+}
+
+.shop_name_text {
+    color: #333333;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 14px;
+}
+
+.social_icons {
+    position: absolute;
+    top: 50px;
+    right: 140px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icons a {
+    text-decoration: none;
+}
+
+.social_icons i {
+    color: white;
+}
+
+.content_main {
+    flex-shrink: 1;
+    margin-top: -20px;
+}
+
+.content_left {
+    width: 270px;
+    float: left;
+}
+
+.menu_wrap,
+.menu_wrap .dropdown_main {
+    background-color: #26d2fc;
+}
+
+.menu_wrap_text {
+    padding-left: 40px;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.root_main a {
+    display: block;
+    padding-left: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+
+.root_main a:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.root_main:hover .dropdown_main {
+    display: block;
+}
+
+.dropdown_main {
+    display: none;
+    position: absolute;
+    left: 270px;
+    top: 66px;
+    width: 270px;
+}
+
+.menu_main {
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+    padding: 0;
+    height: 30px;
+}
+
+.footer_main {
+    min-height: 350px;
+    flex-shrink: 0;
+    background-color: #373737;
+}
