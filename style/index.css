@@ -370,8 +370,143 @@
     background-color: #cb2027;
 }
 
-.footer_main {
-    min-height: 350px;
+.footer_content {
+    min-height: 300px;
     flex-shrink: 0;
     background-color: #373737;
+    color: #ffffff;
+}
+
+.footer_content_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+
+.column_head {
+    font-family: "Raleway Extra Bold", sans-serif;
+    font-size: 18px;
+}
+
+.column_link {
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+.column_link a {
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.news_letter {
+    width: 270px;
+}
+
+.news_content {
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.news_content_text, .about_text {
+    padding-top: 28px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.news_content_text {
+    padding-bottom: 20px;
+}
+
+.news_content input {
+    width: 180px;
+    height: 30px;
+    background-color: #fff51f;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+    text-transform: uppercase;
+}
+
+.news_content button {
+    width: 71px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+}
+
+.news_content button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.cards_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.about {
+    width: 232px;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.about_phone {
+    padding-top: 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.about_email {
+    padding-top: 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #faef03;
+}
+
+.about_phone span, .about_email span {
+    display: inline-block;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.footer_copyrights {
+    min-height: 50px;
+    flex-shrink: 0;
+    background-color: #333333;
+    color: #dad9d9;
+    line-height: 47px;
+}
+
+.footer_copyrights_text {
+    float: left;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+}
+
+.footer_copyrights_social {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 178px;
+    padding-right: 20px;
+}
+
+.footer_copyrights_social a {
+    text-decoration: none;
+}
+
+.footer_copyrights_social i {
+    color: #dad9d9;
 }
