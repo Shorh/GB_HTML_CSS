@@ -1,5 +1,7 @@
-.main_image {
-    width: 50%;
+.product_unit img {
+    height: 235px;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .header img {
