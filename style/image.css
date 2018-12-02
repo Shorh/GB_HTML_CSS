@@ -1,14 +1,13 @@
+.product_unit img {
+    height: 235px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 .header img {
     float: left;
     height: 100%;
     margin: 0 15px;
-}
-
-.header_main img {
-    position: absolute;
-    height: 111px;
-    left: 37px;
-    top: 24px;
 }
 
 .catalog_image {
